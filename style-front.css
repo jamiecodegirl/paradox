@@ -1,0 +1,88 @@
+/* Paradox Front Page
+Loaded on the front page */
+
+/* Front Page
+---------------------------------------------------------------------------------------------------- */
+
+.front-page.full-width-content .content {
+	max-width: none;
+	width: 100%;
+}
+
+/* Front Page Hero
+--------------------------------------------- */
+
+.front-page.full-width-content .header-hero {
+	height: 600px;
+}
+
+.hero-section {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+	padding-top: 20%;
+	position: relative;
+	text-align: center;
+}
+
+.hero-title {
+	color: #fff;
+	font-size: 40px;
+	font-size: 4rem;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 1em 1em 0 1em;
+}
+
+.hero-description {
+	text-align: center;
+	letter-spacing: 2px;
+	padding: 0 1.5em 1em;
+}
+
+/* Media Queries
+---------------------------------------------------------------------------------------------------- */
+
+@media only screen and (min-width: 700px) {
+	/* Hero
+	--------------------------------------------- */
+	.hero-section {
+		padding-top: 15%;
+	}
+}
+
+@media only screen and (min-width: 960px) {
+	/* Hero
+	--------------------------------------------- */
+	.hero-title {
+		font-size: 64px;
+		font-size: 6.4rem;
+		letter-spacing: 5px;
+		text-transform: uppercase;
+		padding-top: 2em;
+	}
+
+	.hero-description {
+		font-size: 2.2rem;
+	}
+}
+
+@media only screen and (min-width: 1300px) {
+	/* Hero
+	--------------------------------------------- */
+	.hero-section {
+		padding-top: 10%;
+	}
+}
+
+@media only screen and (min-width: 2000px) {
+	/* Hero
+	--------------------------------------------- */
+	.hero-section {
+		padding-top: 5%;
+		max-width: 50%;
+		margin: auto;
+	}
+}
